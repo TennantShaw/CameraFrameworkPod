@@ -1,8 +1,8 @@
 {
   "name": "CameraFramework",
   "version": "0.1.0",
-  "summary": "A short description of CameraFramework.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A camera built with Swift that allows a user to take a still image.",
+  "description": "This CocoaPod allows you to add a camera to your app. With the use of two delegates you can get it added in no time at all.",
   "homepage": "https://github.com/TennantShaw/CameraFramework",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.2"
   },
   "source_files": "CameraFramework/Classes/**/*"
 }
