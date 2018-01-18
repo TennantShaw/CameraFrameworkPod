@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CameraFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CameraFramework.'
+  s.summary          = 'A camera built with Swift that allows a user to take a still image. You may use either the front or back camera of the device'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This CocoaPod allows you to add a camera to your app. With the use of two delegates you can get it added in no time at all.
                        DESC
 
   s.homepage         = 'https://github.com/TennantShaw/CameraFramework'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/TennantShaw/CameraFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.2'
 
   s.source_files = 'CameraFramework/Classes/**/*'
   
